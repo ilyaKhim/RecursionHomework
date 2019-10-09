@@ -13,6 +13,7 @@ class RecursionDegrees {
 
         public static double roundAvoid(double value, int places) {
             double scale = Math.pow(10, places);
+            System.out.println("ye");
             return Math.round(value * scale) / scale;
         }
     }
