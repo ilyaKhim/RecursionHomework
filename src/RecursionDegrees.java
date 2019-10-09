@@ -11,7 +11,7 @@ class RecursionDegrees {
             return number * (calculate(number, degree-1));
         }
 
-        public static double roundAvoid(double value, int places) {
+        private static double RoundAvoid(double value, int places) {
             double scale = Math.pow(10, places);
             return Math.round(value * scale) / scale;
         }
